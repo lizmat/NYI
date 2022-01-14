@@ -1,0 +1,11 @@
+use Test;
+use NYI;
+
+plan 2;
+
+my $NYI := NYI "frobnicate";
+
+isa-ok $NYI, Failure;
+is $NYI.exception.feature, "frobnicate", 'did we get the right feature';
+
+# vim: expandtab shiftwidth=4

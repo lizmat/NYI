@@ -1,0 +1,26 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provide shortcut to X::NYI",
+  "license": "Artistic-2.0",
+  "name": "NYI",
+  "perl": "6.d",
+  "provides": {
+    "NYI": "lib/NYI.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/NYI.git",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
