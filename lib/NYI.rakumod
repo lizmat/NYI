@@ -1,4 +1,4 @@
-sub NYI(str $feature) is export { Failure.new: X::NYI.new: :$feature }
+my sub NYI(str $feature) is export { Failure.new: X::NYI.new: :$feature }
 
 sub EXPORT() {
     CORE::.EXISTS-KEY('&NYI')
